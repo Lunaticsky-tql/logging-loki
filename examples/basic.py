@@ -3,7 +3,7 @@ import logging_loki
 
 
 handler = logging_loki.LokiHandler(
-    url="https://my-loki-instance/loki/api/v1/push", 
+    url="https://my-loki-instance/loki/api/v1/push",
     tags={"application": "my-app"},
     auth=("username", "password"),
     version="1",
@@ -12,6 +12,6 @@ handler = logging_loki.LokiHandler(
 logger = logging.getLogger("my-logger")
 logger.addHandler(handler)
 logger.error(
-    "Something happened", 
+    "Something happened",
     extra={"tags": {"service": "my-service"}},
 )

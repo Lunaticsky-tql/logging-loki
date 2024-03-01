@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="logging-loki",
-    version="0.3.2",
+    version="0.0.1-alpha.1",
     description="Python logging handler for Grafana Loki.",
     long_description=long_description,
     long_description_content_type="text/markdown",
