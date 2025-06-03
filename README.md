@@ -3,6 +3,9 @@ logging-loki
 
 Python logging handler for [Loki](https://grafana.com/loki).  
 
+Forked from https://github.com/GreyZmeem/python-logging-loki
+Thanks to their contribution.
+
 
 Installation
 ============
